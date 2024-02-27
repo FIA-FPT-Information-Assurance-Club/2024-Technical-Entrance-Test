@@ -1,0 +1,3 @@
+[submodule "WebExploitation/Ez_Web_PHP"]
+	path = WebExploitation/Ez_Web_PHP
+	url = https://github.com/nquangit/Ez_Web_PHP
