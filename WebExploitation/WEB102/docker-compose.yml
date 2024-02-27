@@ -1,0 +1,9 @@
+services:
+  chall:
+    container_name: web102
+    image: web102
+    build: .
+    ports:
+      - 1337:5000
+    read_only: true
+    restart: unless-stopped

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path Traversal Testing</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/default.min.css">
+    <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
+</head>
+<body>
+    <section class="FIA">
+        <div class="FIA-body">
+            <p class="title">
+                This is your mission
+            </p>
+            <p class="subtitle"></p>
+            <pre><code class="language-python"> {{ mission }} </code></pre>
+            <form class="form" action="/s3cr3t-p4g3" method="POST">
+                <div class="field">
+                    <label class="label">Can you find the flag?</label>
+                    <div class="control">
+                        <input class="input" name="user_input" type="text" placeholder="Your Input">
+                    </div>
+                    <br>
+                    <div class="control">
+                        <input type="submit" class="button is-primary" value="Submit">
+                    </div>
+                </div>
+            </form>
+            <p> {{ error }} </p>
+        </div>
+    </section>
+    <script>
+        hljs.highlightAll();
+        function showPopup(message) {
+            window.alert(message);
+        }
+        var messageFromFlask = '{{ message }}';
+        if (messageFromFlask) {
+            showPopup(messageFromFlask);
+        }
+    </script>
+</body>
+</html>
