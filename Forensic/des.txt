@@ -1,0 +1,11 @@
+#Forensic 102
+Des: Welcome to the show	
+
+#Forensic 101
+DES: do you like scramble ? I love it so much
+
+#Forensic 103
+Des: By the last day  old year, Jack has recieved an message from his co-worker, after opening it, his compputer was compromised. 
+	Can you help him find the reason why ? 
+Note: First blood will have one voucher of pasio as a reward :D
+
