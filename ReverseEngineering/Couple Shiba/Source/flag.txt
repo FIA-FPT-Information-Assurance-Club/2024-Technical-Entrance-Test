@@ -1,0 +1,4 @@
+input: 5F 60 F1 B6 6C EB 79		95 96 241 182 108 235 121
+xor 0x31 => key: 6e 51 c0 87 5d da 48
+
+flag: FIA{White_Shiba_4nd_Yellow_Shiba_1s_4_sup3r_cut13_c0upl3_<3}
