@@ -1,0 +1,127 @@
+﻿  Chall.cpp
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,24): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,24): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,24): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,32): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,32): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,32): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,40): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,40): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,40): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,48): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,48): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,48): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,56): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,56): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,56): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,64): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,64): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,64): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,72): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,72): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,72): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,80): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,80): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,80): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,88): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,88): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,88): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,96): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,96): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,96): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,104): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,104): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,104): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,112): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,112): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,112): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,120): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,120): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,120): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,128): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,128): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,128): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,136): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,136): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,136): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,144): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,144): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,144): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,152): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,152): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,152): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,160): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,160): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,160): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,168): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,168): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,168): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,176): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,176): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,176): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,184): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,184): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,184): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,192): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,192): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,192): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,200): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,200): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,200): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,208): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,208): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,208): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,216): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,216): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,216): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,224): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,224): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,224): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,232): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,232): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,232): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,240): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,240): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,240): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,248): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,248): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,248): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,256): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,256): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,256): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,264): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,264): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,264): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,272): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,272): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,272): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,280): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,280): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,280): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,288): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,288): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,288): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,296): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,296): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,296): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,304): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,304): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,304): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,312): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,312): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,312): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,320): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,320): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,320): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,328): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,328): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,328): warning C4309: 'initializing': truncation of constant value
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,336): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,336): warning C4305: 'initializing': truncation from 'int' to 'char'
+C:\Users\triet\OneDrive\Máy tính\test\Chall\Chall\Chall.cpp(41,336): warning C4309: 'initializing': truncation of constant value
+  Generating code
+  2 of 108 functions ( 1.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Chall.vcxproj -> C:\Users\triet\OneDrive\Máy tính\test\Chall\x64\Release\Chall.exe
