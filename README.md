@@ -238,16 +238,6 @@
    <td>
    </td>
   </tr>
-  <tr>
-   <td>NobiZ
-   </td>
-   <td>Insane
-   </td>
-   <td>Tuấn
-   </td>
-   <td><a href="https://drive.google.com/file/d/1cEacz8ntthPTFDEF3OlDunXeU8s-HRw7/view?usp=drive_link">Bài này khó, chơi vui không tính vào giải thưởng. Để dành độ lại cho FIA CTF</a>
-   </td>
-  </tr>
 </table>
 
 
