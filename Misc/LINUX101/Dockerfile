@@ -7,15 +7,24 @@ ARG DEBIAN_FRONTEND=noninteractive
 # Update and upgrade Ubuntu packages
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y --no-install-recommends sudo && \
+    apt-get install -y --no-install-recommends sudo openssh-server && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
+
+# Create SSH directory and update SSH configuration to listen on port 2222
+RUN mkdir /var/run/sshd && \
+    echo 'Port 2222' >> /etc/ssh/sshd_config && \
+    # Disable root login over SSH
+    echo 'PermitRootLogin no' >> /etc/ssh/sshd_config && \
+    echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config
 
 # Create a new user 'shiba' without a password
 RUN adduser --disabled-password --gecos "" shiba
 
+# Set password for shiba user
+RUN echo 'shiba:shiba' | chpasswd
+
 # Copy the flag file to the created directory
-# Ensure you have the file in your context when building the Docker image
 COPY flag /home/shiba/flag
 
 # Set permissions for all files in the flag folder
@@ -31,11 +40,9 @@ RUN chown root:root /home/shiba/flag && \
 # Add a hint for the challenge
 RUN echo 'Shiba found a special tool. It looks normal but can open secret doors. Look close at tools. Find the special one.' > /home/shiba/README
 
-# Switch to the 'shiba' user
-USER shiba
+# Expose the SSH port
+EXPOSE 2222
 
-# Set the working directory to shiba's home directory
-WORKDIR /home/shiba
-
-# Define the default command to run an interactive shell
-CMD ["/bin/bash"]
+# Use the ENTRYPOINT to start the SSH daemon
+USER root
+ENTRYPOINT ["/usr/sbin/sshd", "-D"]
