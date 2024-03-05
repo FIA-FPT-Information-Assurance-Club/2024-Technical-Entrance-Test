@@ -34,8 +34,7 @@ RUN chmod 600 /home/shiba/flag/*
 RUN chmod u+s $(which grep)
 
 # Ensure everything is owned by root but readable or executable by others as necessary
-RUN chown root:root /home/shiba/flag && \
-    chmod 755 /home/shiba
+RUN chown root:root /home/shiba && chmod 755 /home/shiba
 
 # Add a hint for the challenge
 RUN echo 'Shiba found a special tool. It looks normal but can open secret doors. Look close at tools. Find the special one.' > /home/shiba/README
