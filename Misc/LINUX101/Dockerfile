@@ -30,11 +30,11 @@ COPY flag /home/shiba/flag
 # Set permissions for all files in the flag folder
 RUN chmod 600 /home/shiba/flag/*
 
-# Set SUID bit on grep
-RUN chmod u+s $(which grep)
+# Set SUID bit on awk
+RUN chmod u+s $(which awk)
 
 # Ensure everything is owned by root but readable or executable by others as necessary
-RUN chown root:root /home/shiba && chmod 755 /home/shiba
+RUN chown -R root:root /home/shiba && chmod 755 /home/shiba
 
 # Add a hint for the challenge
 RUN echo 'Shiba found a special tool. It looks normal but can open secret doors. Look close at tools. Find the special one.' > /home/shiba/README
