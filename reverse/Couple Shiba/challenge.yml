@@ -1,0 +1,42 @@
+name: Couple Shiba
+author: Bory
+# Crypto ; Forensic ; Web ; Reverse ; Misc
+category: Reverse Engineering
+description: |-
+  Sau buổi đi chơi đá tuyết, cặp đôi White Shiba và Yellow Shiba thì đem con bỏ nhà đi hẹn hò ôn lại kỷ niệm xưa. Cả hai chơi một trò chơi thú dị. Cùng tìm hiểu xem cả hai đã chơi trò gì nhé :D
+
+  **Password file zip:** infected
+
+  **Lưu ý:** File này không chứa mã độc, tuy nhiên Shiba không khuyến khích chơi trên máy thật. Bạn nào có máy ảo Windows thì nên xài, bạn nào không có thì chơi trên máy thật cũng được, tuy nhiên. **Hãy cẩn thận** 😉
+  Author: Bory
+
+# Do not touch that, dynamic scoring is used.
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 30
+  minimum: 50
+
+
+# connection_info:
+
+attempts: 30
+
+flags:
+- FIA{White_Shiba_4nd_Yellow_Shiba_1s_4_sup3r_cut13_c0upl3_<3}
+
+# Tags are : 1. Difficulty (Intro, Easy, Medium, Hard, Insane) ; 2. General theme (no spoil) ; 3. Author
+tags:
+- Hard
+
+# Can and should be remove if not used
+#connection_info: nc challenges1.gcc-ctf.com 4000
+files:
+- dist/chall.zip
+- dist/shibacouple.enc
+
+# More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
+
+# Do not touch, ctf-cli related
+version: '0.1'

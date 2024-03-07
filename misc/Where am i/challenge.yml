@@ -1,0 +1,39 @@
+name: Where am i 
+author: P5yDuck
+# Crypto ; Forensic ; Web ; Reverse ; Misc
+category: Misc
+description: |-
+  Where is this? Street-country? 
+
+  Example: If you find the street is Hoang Sa and country is Vietnam then the flag will be FIA{hoangsastreet_vietnam}
+  Author: Evil Duck
+
+# Do not touch that, dynamic scoring is used.
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 30
+  minimum: 50
+
+
+# connection_info: nc 14.225.204.145 3000
+
+attempts: 30
+
+flags:
+- FIA{churchstreet_england}
+
+# Tags are : 1. Difficulty (Intro, Easy, Medium, Hard, Insane) ; 2. General theme (no spoil) ; 3. Author
+tags:
+- Easy
+
+# Can and should be remove if not used
+#connection_info: nc challenges1.gcc-ctf.com 4000
+# files:
+# - dist/chal.py
+
+# More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
+
+# Do not touch, ctf-cli related
+version: '0.1'

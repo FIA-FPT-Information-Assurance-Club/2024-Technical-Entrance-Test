@@ -1,0 +1,38 @@
+name: Iguro Obanai
+author: Bory
+# Crypto ; Forensic ; Web ; Reverse ; Misc
+category: Misc
+description: |-
+  蛇の呼吸 ❤️ 恋の呼吸
+
+  Author: Bory
+
+# Do not touch that, dynamic scoring is used.
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 30
+  minimum: 50
+
+
+# connection_info:
+
+attempts: 30
+
+flags:
+- FIA{Obanai_1s_d33ply_in_l0ve_with Mitsuri}
+
+# Tags are : 1. Difficulty (Intro, Easy, Medium, Hard, Insane) ; 2. General theme (no spoil) ; 3. Author
+tags:
+- Medium
+
+# Can and should be remove if not used
+#connection_info: nc challenges1.gcc-ctf.com 4000
+files:
+- dist/chal.py
+
+# More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
+
+# Do not touch, ctf-cli related
+version: '0.1'

@@ -1,0 +1,39 @@
+name: Baby Snake
+author: Bory
+# Crypto ; Forensic ; Web ; Reverse ; Misc
+category: Reverse Engineering
+description: |-
+  Tui thích trò chơi con rắn, nên tui ra đề con rắn hoài được không ? :D
+
+  Author: Bory
+
+# Do not touch that, dynamic scoring is used.
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 30
+  minimum: 50
+
+
+# connection_info:
+
+attempts: 30
+
+flags:
+- FIA{old_but_goldot_so_it_is_new_12keudbai139dych}
+
+# Tags are : 1. Difficulty (Intro, Easy, Medium, Hard, Insane) ; 2. General theme (no spoil) ; 3. Author
+tags:
+- Easy
+
+# Can and should be remove if not used
+#connection_info: nc challenges1.gcc-ctf.com 4000
+files:
+- dist/snake.exe
+- dist/snake.pck
+
+# More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
+
+# Do not touch, ctf-cli related
+version: '0.1'

@@ -1,0 +1,38 @@
+name: Restless Gamble
+author: RandomTeuz
+# Crypto ; Forensic ; Web ; Reverse ; Misc
+category: Crypto
+description: |-
+  Gambling is all about anticipating the possibilities to win more than lose, I don't want that. I want to win all the time, 200 times, and fast! Can you help me beat this game?
+
+  Author: RandomTeuz
+
+# Do not touch that, dynamic scoring is used.
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 30
+  minimum: 50
+
+
+connection_info: 
+
+attempts: 30
+
+flags:
+- FIA{1s_R4ndoM_bU7_n0T_RaNd0M}
+
+# Tags are : 1. Difficulty (Intro, Easy, Medium, Hard, Insane) ; 2. General theme (no spoil) ; 3. Author
+tags:
+- Easy
+
+# Can and should be remove if not used
+#connection_info: nc challenges1.gcc-ctf.com 4000
+files:
+- dist/server.py
+
+# More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
+
+# Do not touch, ctf-cli related
+version: '0.1'

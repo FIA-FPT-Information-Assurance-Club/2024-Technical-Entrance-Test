@@ -1,0 +1,38 @@
+name: FRS102
+author: P5yDuck
+# Crypto ; Forensic ; Web ; Reverse ; Misc
+category: Forensic
+description: |-
+  Welcome to wireshark
+
+  Author: Evil Duck
+
+# Do not touch that, dynamic scoring is used.
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 30
+  minimum: 50
+
+
+# connection_info:
+
+attempts: 30
+
+flags:
+- FIA{TcP_C4tch_Th4m_4ll_W3ll_Done_63b0226c3a70b9ea967616e11a68e}
+
+# Tags are : 1. Difficulty (Intro, Easy, Medium, Hard, Insane) ; 2. General theme (no spoil) ; 3. Author
+tags:
+- Medium
+
+# Can and should be remove if not used
+#connection_info: nc challenges1.gcc-ctf.com 4000
+files:
+- dist/FRS102.pcapng
+
+# More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
+
+# Do not touch, ctf-cli related
+version: '0.1'
