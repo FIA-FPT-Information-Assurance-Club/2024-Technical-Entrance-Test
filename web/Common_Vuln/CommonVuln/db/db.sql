@@ -13,5 +13,7 @@ CREATE TABLE `users` (
   UNIQUE KEY `username` (`username`)
 );
 
+
 INSERT INTO `users` (`id`, `username`, `password`) VALUES (1, 'admin', 'Deleted_account');
 INSERT INTO `users` (`id`, `username`, `password`) VALUES (2, 'myuser', 'password!');
+INSERT INTO `users` (`id`, `username`, `password`) VALUES (2, 'webmin_user', '1emFA7CiFpFaa');
