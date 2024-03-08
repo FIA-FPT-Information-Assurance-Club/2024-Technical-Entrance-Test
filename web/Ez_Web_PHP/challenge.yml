@@ -1,0 +1,40 @@
+name: Ez_Web_HTTP
+author: ngquangit
+# Crypto ; Forensic ; Web ; Reverse ; Misc
+category: Web
+description: |-
+  We have PHP, robots, and ourselves, we can go to every corner of the world and find the hidden flag. This trip is starting at a fast pace with restrictions, can you overcome the restrictions and slow down this trip?
+  
+  Author: nquangit
+
+# Do not touch that, dynamic scoring is used.
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 30
+  minimum: 50
+
+
+# connection_info:
+
+attempts: 30
+
+flags:
+- FIA{1t_15_s0_3@5y_T0_0v3rc0m3_th1s_ch4ll3ng3}
+
+# Tags are : 1. Difficulty (Intro, Easy, Medium, Hard, Insane) ; 2. General theme (no spoil) ; 3. Author
+tags:
+- Medium
+
+# Can and should be remove if not used
+connection_info: https://pathmission.fiahackingisfun.id.vn
+
+# files:
+# - dist/chall.exe
+# - dist/shibapuppy.encrypted
+
+# More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
+
+# Do not touch, ctf-cli related
+version: '0.1'

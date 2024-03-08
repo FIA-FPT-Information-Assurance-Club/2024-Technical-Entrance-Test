@@ -1,0 +1,8 @@
+version: '3'
+services:
+  playground:
+    build: ./playground
+    restart: unless-stopped
+    ports:
+      - "13444:80"
+    

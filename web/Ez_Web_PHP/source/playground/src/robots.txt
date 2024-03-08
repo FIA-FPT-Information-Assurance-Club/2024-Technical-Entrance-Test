@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /s3cr3t_f0ld3r/

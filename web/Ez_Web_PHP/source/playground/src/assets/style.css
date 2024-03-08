@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    background-color: #1f1f1f;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 120%;
+}
+
+body::after {
+    content: "";
+    background: url('https://media.giphy.com/media/12W5Sg2koWYnwA/giphy.gif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -99;
+    backdrop-filter: blur(50px);
+    opacity: 0.3;
+}
+
+h1 {
+    text-align: center;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+}
+
+.p-text {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+#cont-btn {
+    z-index: -1;
+    background: none;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 10px;
+    font-size: 1.005em;
+}
+
+#cont-btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
