@@ -3,7 +3,7 @@ author: P5yDuck
 # Crypto ; Forensic ; Web ; Reverse ; Misc
 category: Forensic
 description: |-
-  By the last day old year, Jack has recieved an message from his co-worker, after opening it, his compputer was compromised. Can you help him find the reason why ?
+  By the last day old year, Jack has recieved an email message from his co-worker, after opening it, his compputer was compromised. Can you help him find the reason why ?
 
   Note: ***This challenge contains real malware. Please play on a virtual machine, ABSOLUTELY DO NOT PLAY ON A REAL MACHINE. When playing on a virtual machine, to ensure safety, players should take a snapshot of the virtual machine first and set the network card to host-only mode.***
 
@@ -33,10 +33,9 @@ tags:
 
 # Can and should be remove if not used
 #connection_info: nc challenges1.gcc-ctf.com 4000
-# files:
-# - dist/FRS103.ad
 #files:
 #- dist/FRS103.ad
+
 
 # More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
 
