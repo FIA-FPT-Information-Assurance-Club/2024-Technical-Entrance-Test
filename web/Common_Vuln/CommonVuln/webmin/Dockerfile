@@ -26,7 +26,7 @@ RUN echo "myuser ALL=(root) NOPASSWD: /usr/sbin/service webmin start" >> /etc/su
 RUN passwd -d root
 
 # Change root password
-RUN /usr/share/webmin/changepass.pl /etc/webmin root ac28ad543f41d087f89d261feba59dc8
+RUN /usr/share/webmin/changepass.pl /etc/webmin root f0584214a4a5d9d66e2e82f7c1dec42dnquangit
 RUN echo "DO NOT Bruteforce this form !!!" > /notice.txt
 # Disable SSL
 # RUN sed -i 's/ssl=1/ssl=0/g' /etc/webmin/miniserv.conf
