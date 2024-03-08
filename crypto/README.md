@@ -5,5 +5,5 @@
 | Name                               | Author     | Difficulty | 
 | ---------------------------------- | ---------- | ---------- |
 | [simplersa](simplersa/)            | RandomTeuz | Easy       |
-| [transformmmmm](transformmmmm/)    | RandomTeuz | Easy       |
+| [transformmmmm](Symmetric-Ciphers/)| RandomTeuz | Easy       |
 | [Restless Gamble](Restless-Gamble/)| RandomTeuz | Easy       |
