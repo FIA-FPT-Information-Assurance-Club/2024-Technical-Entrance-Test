@@ -1,11 +1,13 @@
-name: Iguro Obanai
-author: Bory
+name: Welcome
+author: P5yDuck
 # Crypto ; Forensic ; Web ; Reverse ; Misc
 category: Misc
 description: |-
-  蛇の呼吸 ❤️ 恋の呼吸
+  WELCOME TO FIA TECHNICAL CTF 2024!
 
-  Author: Bory
+  Here is your flag: FIA{https://www.youtube.com/watch?v=dQw4w9WgXcQ}
+
+  Author: Evil Duck
 
 # Do not touch that, dynamic scoring is used.
 value: 500
@@ -16,21 +18,21 @@ extra:
   minimum: 50
 
 
-# connection_info:
+# connection_info: nc 14.225.204.145 3000
 
 attempts: 30
 
 flags:
-- FIA{Obanai_1s_d33ply_in_l0ve_with Mitsuri}
+- FIA{https://www.youtube.com/watch?v=dQw4w9WgXcQ}
 
 # Tags are : 1. Difficulty (Intro, Easy, Medium, Hard, Insane) ; 2. General theme (no spoil) ; 3. Author
 tags:
-- Medium
+- Easy
 
 # Can and should be remove if not used
-
-files:
-- dist/chall.py
+#connection_info: nc challenges1.gcc-ctf.com 4000
+# files:
+# - dist/chal.py
 
 # More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
 
