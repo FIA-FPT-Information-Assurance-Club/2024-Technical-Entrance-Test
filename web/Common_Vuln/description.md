@@ -1,1 +1,0 @@
-As a manager, I implemented a feedback system in our Webmin application to gather customer feedback and improve our services. However, during its implementation, the system Exposed some sensitive information of our employees. Could you help me identify and address these Common Vulnerabilities?

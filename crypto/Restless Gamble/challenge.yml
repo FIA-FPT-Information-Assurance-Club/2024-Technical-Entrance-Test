@@ -16,7 +16,7 @@ extra:
   minimum: 50
 
 
-connection_info: 
+connection_info: nc 14.225.204.145 3001
 
 attempts: 30
 
