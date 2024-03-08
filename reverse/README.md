@@ -7,3 +7,4 @@
 | [Baby-Snake](Baby-Snake/)          | Bory       | Easy       |
 | [Shiba-Baby](Shiba-Baby/)          | Bory       | Medium     |
 | [Couple-Shiba](Couple-Shiba/)      | Bory       | Hard       |
+| [NobiZ](NobiZ/)                    | xaw3ep     | Insane     |

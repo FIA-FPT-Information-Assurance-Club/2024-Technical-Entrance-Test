@@ -30,7 +30,7 @@ tags:
 # Can and should be remove if not used
 #connection_info: nc challenges1.gcc-ctf.com 4000
 files:
-- dist/nobiZ
+- dist/nobiZ.rar
 
 # More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
 
