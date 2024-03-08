@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  db:
+    build: ./db
+    command: --default-authentication-plugin=mysql_native_password --character-set-server=utf8 --collation-server=utf8_unicode_ci
+    restart: unless-stopped
+
+    environment:
+      - MYSQL_ROOT_PASSWORD=45299417d86f231f6a584d1488edb763
+      - MYSQL_DATABASE=myDB
+      - MYSQL_USER=db_user
+      - MYSQL_PASSWORD=db_password
+    expose:
+      - 3306
+
+  web:
+    build: ./playground
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+    environment:
+      - MYSQL_HOSTNAME=db
+      - MYSQL_ROOT_PASSWORD=45299417d86f231f6a584d1488edb763
+      - MYSQL_DATABASE=myDB
+      - MYSQL_USER=db_user
+      - MYSQL_PASSWORD=db_password
+
+  webmin:
+    build: ./webmin
+    restart: unless-stopped
+    ports:
+      - "10000:10000"

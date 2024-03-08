@@ -1,11 +1,11 @@
-name: Time Adventure
-author: kahang
+name: Common Vuln
+author: nquangit
 # Crypto ; Forensic ; Web ; Reverse ; Misc
 category: Web
 description: |-
-  It's Adventure Time... Don't forget to back up your file.
+  As a manager, I implemented a feedback system in our Webmin application to gather customer feedback and improve our services. However, during its implementation, the system Exposed some sensitive information of our employees. Could you help me identify and address these Common Vulnerabilities?
   
-  Author: kahang
+  Author: nquangit
 
 # Do not touch that, dynamic scoring is used.
 value: 500
@@ -21,14 +21,14 @@ extra:
 attempts: 30
 
 flags:
-- FIA{t1m3_1s_4n_1llus10n}
+- FIA{$QL_!nj3ct10n_CVE_3xpl01t_@and_pr1v!l3g3_3scal@tion_1s_s0_fUn!}
 
 # Tags are : 1. Difficulty (Intro, Easy, Medium, Hard, Insane) ; 2. General theme (no spoil) ; 3. Author
 tags:
-- Medium
+- Insane
 
 # Can and should be remove if not used
-connection_info: https://timeadventure.fiahackingisfun.id.vn/
+connection_info: 
 
 # files:
 # - dist/chall.exe

@@ -1,11 +1,11 @@
-name: Time Adventure
-author: kahang
+name: Path to treasure
+author: 0nion
 # Crypto ; Forensic ; Web ; Reverse ; Misc
 category: Web
 description: |-
-  It's Adventure Time... Don't forget to back up your file.
+  Captain Jack Sparrow is going to the island containing the treasure. However, he encountered a problem: he had to pass 3 missions to reach that treasure before Hector Barbossa. Help him pass the quest and reach the treasure first.
   
-  Author: kahang
+  Author: 0nion
 
 # Do not touch that, dynamic scoring is used.
 value: 500
@@ -21,14 +21,14 @@ extra:
 attempts: 30
 
 flags:
-- FIA{t1m3_1s_4n_1llus10n}
+- FIA{Y0u_h4v3_5ucceSSfully_c0mplEted_All_m1sSiOns-57656c636f6d6520746f20464941}
 
 # Tags are : 1. Difficulty (Intro, Easy, Medium, Hard, Insane) ; 2. General theme (no spoil) ; 3. Author
 tags:
 - Medium
 
 # Can and should be remove if not used
-connection_info: https://timeadventure.fiahackingisfun.id.vn/
+connection_info: https://pathmission.fiahackingisfun.id.vn
 
 # files:
 # - dist/chall.exe
