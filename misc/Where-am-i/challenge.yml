@@ -31,8 +31,8 @@ tags:
 
 # Can and should be remove if not used
 #connection_info: nc challenges1.gcc-ctf.com 4000
-# files:
-# - dist/chal.py
+files:
+- dist/Chall.png
 
 # More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
 
