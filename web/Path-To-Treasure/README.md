@@ -26,7 +26,8 @@ Một đường dẫn ta bị Disallow "**/s3cr3t-p4g3**"
 Truy cập vào đường dẫn trên
 ![!\[\[3.png\]\]](assets/3.png)
 => Trả về lỗi "**You are must be a HACKER-1337 to access this page!!!**" => Có nghĩa là trang web này đang kiểm tra HTTP Header User-Agent có phải là **HACKER-1337** không
-Sửa lại Header và gửi request
+
+Vậy nên giờ ta sẽ sửa lại Header và gửi request
 ![!\[\[4.png\]\]](assets/4.png)
 
 ### Begin solve the mission
@@ -61,6 +62,7 @@ Mission này sẽ xóa toàn bộ kí tự `../` nhiên nhiêu nếu ta dùng pa
 Mission này sẽ kiểm tra đầu vào xem có `../` hoặc `/flag` không
 Để vượt qua mission này cũng rất đơn giản đó là............dùng lại payload của mission 2 :v
 `/flag/aa/..`
+
 ![!\[\[12.png\]\]](assets/12.png)
 
 #### FLAG
