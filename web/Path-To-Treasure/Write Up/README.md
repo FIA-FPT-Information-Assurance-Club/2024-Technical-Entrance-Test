@@ -3,6 +3,8 @@
 
 Captain Jack Sparrow is going to the island containing the treasure. However, he encountered a problem: he had to pass 3 missions to reach that treasure before Hector Barbossa. Help him pass the quest and reach the treasure first.
 
+#### Author: [0nion](https://github.com/onion2203)
+
 Mission:  [https://pathmission.fiahackingisfun.id.vn](https://pathmission.fiahackingisfun.id.vn/)
 
 ## Skills Required
