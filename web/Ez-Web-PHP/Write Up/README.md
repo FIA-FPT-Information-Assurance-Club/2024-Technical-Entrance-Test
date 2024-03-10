@@ -104,7 +104,7 @@ document.getElementById('cont-btn').click()
 #### Final part
 `⚠️ Final part: you must send a post request to /get_f1nal_fl4g.php. Data: "hacker=me" ⚠️`
 
-- I think it's an easy part, ask Google or ChatGPT for help. We can use have a lot of ways to send a POST request. But I will use `curl` command.
+- I think it's an easy part, ask Google or ChatGPT for help. We can find a lot of ways to send a POST request. But I will use `curl` command.
 
 ```bash
 curl -X POST https://web-so-easy-chall.fiahackingisfun.id.vn/get_f1nal_fl4g.php -d "hacker=me"
