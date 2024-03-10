@@ -23,12 +23,14 @@ RUN adduser --disabled-password --gecos "" shiba
 
 # Set password for shiba user
 RUN echo 'shiba:shiba' | chpasswd
+RUN chmod o-x /usr/bin/passwd
 
 # Copy the flag file to the created directory
 COPY flag /home/shiba/flag
 
 # Set permissions for all files in the flag folder
 RUN chmod 600 /home/shiba/flag/*
+RUN chmod 600 /tmp
 
 # Set SUID bit on awk
 RUN chmod u+s $(which awk)
