@@ -1,38 +1,27 @@
 name: FRS101
 author: P5yDuck
-# Crypto ; Forensic ; Web ; Reverse ; Misc
 category: Forensic
 description: |-
   Do you like scramble ? I love it so much
 
   Author: Evil Duck
-
-# Do not touch that, dynamic scoring is used.
 value: 500
 type: dynamic
+
 extra:
   initial: 500
   decay: 30
   minimum: 50
-
-
-# connection_info:
 
 attempts: 30
 
 flags:
 - FIA{D0_y0u_r34lly_L1ke_M3t4-Scr4mbl3_puzzl3?42319e79331c50cc296b}
 
-# Tags are : 1. Difficulty (Intro, Easy, Medium, Hard, Insane) ; 2. General theme (no spoil) ; 3. Author
-tags:
-- Easy
-
-# Can and should be remove if not used
-#connection_info: nc challenges1.gcc-ctf.com 4000
 files:
 - dist/FRS101.png
 
-# More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
+tags:
+- Easy
 
-# Do not touch, ctf-cli related
 version: '0.1'

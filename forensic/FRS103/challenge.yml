@@ -1,43 +1,28 @@
 name: FRS103
 author: P5yDuck
-# Crypto ; Forensic ; Web ; Reverse ; Misc
 category: Forensic
 description: |-
   By the last day old year, Jack has recieved an email message from his co-worker, after opening it, his compputer was compromised. Can you help him find the reason why ?
 
   Note: ***This challenge contains real malware. Please play on a virtual machine, ABSOLUTELY DO NOT PLAY ON A REAL MACHINE. When playing on a virtual machine, to ensure safety, players should take a snapshot of the virtual machine first and set the network card to host-only mode.***
 
-  Link download: [here](https://longthuanstore-my.sharepoint.com/personal/nguyen_google_id_vn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fnguyen%5Fgoogle%5Fid%5Fvn%2FDocuments%2F%5BENTRANCE%20TEST%5D%2FFRS%2FFRS103%2Ead1&parent=%2Fpersonal%2Fnguyen%5Fgoogle%5Fid%5Fvn%2FDocuments%2F%5BENTRANCE%20TEST%5D%2FFRS&ga=1)
+  Link download: [here](https://longthuanstore-my.sharepoint.com/:u:/g/personal/nguyen_google_id_vn/ERnwUOWT3lhLmflk_jEms5IBmT-3C2EzibBphVbPMC5NYw?e=NAqLkZ)
 
   Author: Evil Duck
-
-# Do not touch that, dynamic scoring is used.
 value: 500
 type: dynamic
+
 extra:
   initial: 500
   decay: 30
   minimum: 50
-
-
-# connection_info:
 
 attempts: 30
 
 flags:
 - FIA{N0000000000_m4cr0_Try_f0l1n4_1nstead:DDDD_afd9a1434c08aa91b283}
 
-# Tags are : 1. Difficulty (Intro, Easy, Medium, Hard, Insane) ; 2. General theme (no spoil) ; 3. Author
 tags:
 - Hard
 
-# Can and should be remove if not used
-#connection_info: nc challenges1.gcc-ctf.com 4000
-#files:
-#- dist/FRS103.ad
-
-
-# More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
-
-# Do not touch, ctf-cli related
 version: '0.1'

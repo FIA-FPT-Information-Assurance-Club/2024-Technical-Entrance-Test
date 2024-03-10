@@ -27,6 +27,9 @@ flags:
 tags:
 - Medium
 
+hints:
+- Do you know any HTTP Header?
+
 # Can and should be remove if not used
 connection_info: https://pathmission.fiahackingisfun.id.vn
 

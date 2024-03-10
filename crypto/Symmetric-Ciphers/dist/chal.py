@@ -3,7 +3,7 @@ from Crypto.Util.Padding import pad
 import base64 
 
 flag='[REDACTED]'
-key = 'Unlgjqwtwdnvfufv'
+key = 'Dwufzhfdwuthispa'
 
 def encrypt(raw):
         raw = pad(raw.encode(),16)
@@ -12,4 +12,4 @@ def encrypt(raw):
 
 encrypted = encrypt(flag)
 print(encrypted)
-#encrypted: vFRlEU8WZEuEZz05XPRx0Yi9LkjndH6VxLJkwReOney7NeUylpK8QsULAo8lyqAe
+#encrypted: wIukL48oO66zaqOyIBmD8SpnrWw3Ba4tWCUF4PxWuiMNGtJXFlwfRURh17jfKa3O

@@ -1,40 +1,31 @@
 name: Time Adventure
 author: kahang
-# Crypto ; Forensic ; Web ; Reverse ; Misc
 category: Web
 description: |-
   It's Adventure Time... Don't forget to back up your file.
-  
-  Author: kahang
 
-# Do not touch that, dynamic scoring is used.
+  Author: kahang
 value: 500
 type: dynamic
+
 extra:
   initial: 500
   decay: 30
   minimum: 50
-
-
-# connection_info:
+connection_info: https://timeadventure.fiahackingisfun.id.vn/
 
 attempts: 30
 
 flags:
 - FIA{t1m3_1s_4n_1llus10n}
 
-# Tags are : 1. Difficulty (Intro, Easy, Medium, Hard, Insane) ; 2. General theme (no spoil) ; 3. Author
 tags:
 - Hard
 
-# Can and should be remove if not used
-connection_info: https://timeadventure.fiahackingisfun.id.vn/
+hints:
+- |-
+  Finn: Time... Is it real?...
 
-# files:
-# - dist/chall.exe
-# - dist/shibapuppy.encrypted
+  Jake: Eghhh, I think I just touched it.
 
-# More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
-
-# Do not touch, ctf-cli related
 version: '0.1'

@@ -1,38 +1,27 @@
 name: Symmetric Ciphers
 author: RandomTeuz
-# Crypto ; Forensic ; Web ; Reverse ; Misc
 category: Crypto
 description: |-
   So you want to become a member of FIACLUB? better find the key for the key to solve this challenge!
 
   Author: RandomTeuz
-
-# Do not touch that, dynamic scoring is used.
-value: 500
+value: 402
 type: dynamic
+
 extra:
   initial: 500
   decay: 30
   minimum: 50
-
-
-# connection_info:
 
 attempts: 30
 
 flags:
 - FIA{is_not_as_secured_as_I_thought}
 
-# Tags are : 1. Difficulty (Intro, Easy, Medium, Hard, Insane) ; 2. General theme (no spoil) ; 3. Author
-tags:
-- Easy
-
-# Can and should be remove if not used
-#connection_info: nc challenges1.gcc-ctf.com 4000
 files:
 - dist/chal.py
 
-# More info : https://github.com/CTFd/ctfcli/blob/master/ctfcli/spec/challenge-example.yml
+tags:
+- Easy
 
-# Do not touch, ctf-cli related
 version: '0.1'
