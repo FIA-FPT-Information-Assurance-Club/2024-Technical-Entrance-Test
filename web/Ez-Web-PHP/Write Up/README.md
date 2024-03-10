@@ -9,15 +9,25 @@ Challenge: [Link](https://web-so-easy-chall.fiahackingisfun.id.vn/)
 - Basic Web Exploitation
 - Basic HTTP Request
 
+
 ### Overview 
 ![alt text](assets/image.png)
 
-### 1. Analyzing
+# Table of contents
+1. [Analyzing](#analyzing)
+2. [Solving](#solving)
+    1. [Find the way to click the button](#click-button)
+    2. [Look for robots.txt file](#robots)
+    3. [Final part](#final)
+3. [Flag](#flag)
+
+
+### 1. Analyzing <a name="analyzing"></a>
 - We have a website with button "Click here to continue!" but we can't click it.
 - Reading the description, we can see that the challenge is about PHP and robots. So, we can assume that there is something related to **robots** - `robots.txt` file.
 
-### 2. Solving
-#### 2.1. Find the way to click the button.
+### 2. Solving <a name="solving"></a>
+#### 2.1. Find the way to click the button.<a name="click-button"></a>
 - Inspect the button, we can see that it's have an CSS property **`z-index: -1`**. So, we can't interact with it. Try to disable it and click the button.
 
 ![alt text](assets/discss.png)
@@ -57,7 +67,7 @@ document.getElementById('cont-btn').click()
 
 - May be we have done with the button, so go to the next step.
 
-#### 2.2. Look for `robots.txt` file
+#### 2.2. Look for `robots.txt` file <a name="robots"></a>
 - Try to access `robots.txt` file, we can see that it's have a disallow rule for `/s3cr3t_f0ld3r/`.
 
 ![alt text](assets/robots.png)
@@ -101,7 +111,7 @@ document.getElementById('cont-btn').click()
 - And we have the flag is `XzNANXlfVDBfMHYzcmMwbTNf`
 - Decode it with base64, we have a part of flag is **`_3@5y_T0_0v3rc0m3_`**.
 
-#### Final part
+#### Final part <a name="final"></a>
 `⚠️ Final part: you must send a post request to /get_f1nal_fl4g.php. Data: "hacker=me" ⚠️`
 
 - I think it's an easy part, ask Google or ChatGPT for help. We can find a lot of ways to send a POST request. But I will use `curl` command.
@@ -114,6 +124,6 @@ curl -X POST https://web-so-easy-chall.fiahackingisfun.id.vn/get_f1nal_fl4g.php 
 
 - We have the final part `dGgxc19jaDRsbDNuZzN9` and decode it with base64, we have a part of flag is **`th1s_ch4ll3ng3}`**.
 
-### Flag
+### Flag <a name="flag"></a>
 - Concatenate all the parts of the flag, we have the flag is
 **`FIA{1t_15_s0_3@5y_T0_0v3rc0m3_th1s_ch4ll3ng3}`**
