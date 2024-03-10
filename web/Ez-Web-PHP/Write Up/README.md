@@ -18,7 +18,7 @@ Challenge: [Link](https://web-so-easy-chall.fiahackingisfun.id.vn/)
 
 ### 2. Solving
 #### 2.1. Find the way to click the button.
-- Inspect the button, we can see that it's have an CSS property z-index: -1. So, we can't interact with it. Try to disable it and click the button.
+- Inspect the button, we can see that it's have an CSS property **`z-index: -1`**. So, we can't interact with it. Try to disable it and click the button.
 
 ![alt text](assets/discss.png)
 
