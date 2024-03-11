@@ -40,6 +40,8 @@
 
 - Finding which tool have SUID permission. We can see that there is a command name `mawk` .
 
+`find / -type f -perm -u=s 2>/dev/null`
+
 ![Untitled](assets/Untitled%202.png)
 
 - From here we can search on [GTFOBins](https://www.notion.so/MISC-LINUX101-b030798fa70c4b188f56d4fde85e8d33?pvs=21) to see if this command can be abused and leveraged to read files.
