@@ -8,7 +8,7 @@
 | Category      | Name    | Objective         | Difficulty [⭐⭐⭐⭐⭐] |
 |---------------|-------------------------------------------------------------------------|--------------------------------------------------|-------------------------|
 | **Web** | [Ez_Web_HTTP](web/Ez-Web-PHP/source/) | Move around a simple website with HTML, CSS, JS and collect flags | ⭐ |
-| **Web** | [Path to treasure](web/Path-To-Treasure/source/) | | ⭐⭐ |
+| **Web** | [Path to treasure](web/Path-To-Treasure/source/) | Working with User-Agent Header and Path Traversal | ⭐⭐ |
 | **Web** | [Time Adventure](web/TimeAdventure/source/) | | ⭐⭐⭐ |
 | **Web** | [Common Vuln](web/Common-Vuln/source/) | Blind SQL Injection and CVE Research | ⭐⭐⭐⭐⭐ |
 | **Reversing** | [Baby Snake](reverse/Baby-Snake/dist/) | Basic reverse game make by Godot Engine | ⭐ |
