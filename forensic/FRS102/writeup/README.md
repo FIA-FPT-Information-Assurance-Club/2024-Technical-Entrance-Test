@@ -1,12 +1,12 @@
-# [FORENSIC] FRS102
+# [FORENSIC] FRS103
 
 ---
 
 **Author**: `Evil Duck`
 
-**Difficulty**: `Medium`
+**Difficulty**: `Hard`
 
-**Flag**: `FIA{TcP_C4tch_Th4m_4ll_W3ll_Done_63b0226c3a70b9ea967616e11a68e}`
+**Flag**: `FIA{N0000000000_m4cr0_Try_f0l1n4_1nstead:DDDD_afd9a1434c08aa91b283}`
 
 ### Description
 
