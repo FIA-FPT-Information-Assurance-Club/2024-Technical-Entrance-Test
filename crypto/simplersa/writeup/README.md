@@ -66,7 +66,7 @@ hint2 = 247366396821747369101547461816313847154250804754242937372067428805028036
 
 # Solver
 
-Given the hint1 and hint 2, one can solve the equation to find p and q
+Given the hint1 and hint 2, one can solve the equation to find p and q using sympy
 
 ```
 from sympy import symbols, solve
@@ -92,7 +92,7 @@ print("q =", solution[0][1])
 
 ```
 
-Having p and q, the rest of it is just finding the private key and decrypt the ciphertext
+Having p and q, the rest of it is just finding the private key and decrypt the ciphertext following the RSA process
 
 
 ```
