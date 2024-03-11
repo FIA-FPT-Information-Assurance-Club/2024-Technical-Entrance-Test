@@ -109,7 +109,7 @@ while True:
 
 ## Bonus
 
-- As in the script above, I’ve used the whole characters set in ASCII format. The total amount of the set is 93 characters `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()-_+=~`[]{}|:;\"'<>,.?/` . In the worst case, we must have to brute force or send total requests to the web application 93 times for each character, and for the whole string “FIA{t1m3_1s_4n_1llus10n}” contains 24 characters, it’s gonna be `24 * 93 = 2304` possibilities.
+- As in the script above, I’ve used the whole characters set in ASCII format. The total amount of the set is 93 characters `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()-_+=~[]{}|:;\"'<>,.?/` . In the worst case, we must have to brute force or send total requests to the web application 93 times for each character, and for the whole string “FIA{t1m3_1s_4n_1llus10n}” contains 24 characters, it’s gonna be `24 * 93 = 2304` possibilities.
 - This kinda takes time and not efficiency, therefore we can convert to Hexadecimal or even Binary to decrease the amount of guessing each character. When converted to Hexadecimal, the length of the character now becomes 48 but the range of Hex is only 16 `(0 → F)`. Therefore, the total possibilities now are `48 * 16 = 768`.
 
 ![Untitled](assets/Untitled%206.png)
