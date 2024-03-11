@@ -7,10 +7,10 @@
 # [__Challenges__](#challenges)
 | Category      | Name    | Objective         | Difficulty [⭐⭐⭐⭐⭐] |
 |---------------|-------------------------------------------------------------------------|--------------------------------------------------|-------------------------|
-| **Web** | [Ez_Web_HTTP](web/Ez-Web-PHP/source/) |  | ⭐ |
+| **Web** | [Ez_Web_HTTP](web/Ez-Web-PHP/source/) | Move around a simple website with HTML, CSS, JS and collect flags | ⭐ |
 | **Web** | [Path to treasure](web/Path-To-Treasure/source/) | | ⭐⭐ |
 | **Web** | [Time Adventure](web/TimeAdventure/source/) | | ⭐⭐⭐ |
-| **Web** | [Common Vuln](web/Common-Vuln/source/) |  | ⭐⭐⭐⭐⭐ |
+| **Web** | [Common Vuln](web/Common-Vuln/source/) | Blind SQL Injection and CVE Research | ⭐⭐⭐⭐⭐ |
 | **Reversing** | [Baby Snake](reverse/Baby-Snake/dist/) | | ⭐ |
 | **Reversing** | [Shiba baby](reverse/Shiba-Baby/dist/) |  | ⭐⭐⭐ |
 | **Reversing** | [NobiZ](reverse/NobiZ/dist/) |  | ⭐⭐⭐ |
