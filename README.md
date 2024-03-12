@@ -24,4 +24,4 @@
 | **Misc** | [Where am i](misc/Where-am-i/dist/) | Geoosint to find the place  | ⭐ |
 | **Misc** | [LINUX101](misc/LINUX101/source/) | Privilege Escalation to read files and grep flag with regex | ⭐ |
 | **Misc** | [Iguro Obanai](misc/Iguro-Obanai/dist/) | OSINT GitHub repo and programming | ⭐⭐⭐ |
-| **Misc** | [Road to rome](misc/Road-to-rome/source/) | | ⭐⭐⭐ |
+| **Misc** | [Road to rome](misc/Road-to-rome/source/) | Programming using pwntools | ⭐⭐⭐ |
