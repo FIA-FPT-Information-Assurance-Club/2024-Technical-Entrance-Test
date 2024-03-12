@@ -13,7 +13,7 @@
 | **Web** | [Common Vuln](web/Common-Vuln/source/) | Blind SQL Injection and CVE Research | ⭐⭐⭐⭐⭐ |
 | **Reversing** | [Baby Snake](reverse/Baby-Snake/dist/) | Basic reverse game make by Godot Engine | ⭐ |
 | **Reversing** | [Shiba baby](reverse/Shiba-Baby/dist/) | Reverse algorithm handles with file and random function | ⭐⭐⭐ |
-| **Reversing** | [NobiZ](reverse/NobiZ/dist/) |  | ⭐⭐⭐ |
+| **Reversing** | [NobiZ](reverse/NobiZ/dist/) | Understand function calls and jump table | ⭐⭐⭐ |
 | **Reversing** | [Couple Shiba](reverse/Couple-Shiba/dist/) | Anti debugger basic, TLSCallBack, Constructor/Destructor run outside main function in C, RC4 algorithm | ⭐⭐⭐⭐ |
 | **Forensics** | [FRS101](forensic/FRS101/dist/) | Hidden message by scrambling the picture, viewing metadata | ⭐ |
 | **Forensics** | [FRS102](forensic/FRS102/dist/) | Knowing TCP stream, network flow and some basic Linux, crypto encryption | ⭐⭐ |
