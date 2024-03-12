@@ -152,15 +152,15 @@ def produce_seed(s):
     epoch_timestamp_utc = datetime_object_utc.timestamp()
     return epoch_timestamp_utc
 
-conn = remote('14.225.204.145', 3001)
-data=conn.recvuntil(b'>')
-data_str=data.decode()
-print(data_str)
 
 time = extract_time(data_str)
 seed = produce_seed(time)
 
 random.seed(seed) 
+conn = remote('14.225.204.145', 3001)
+data=conn.recvuntil(b'>')
+data_str=data.decode()
+print(data_str)
 
 conn.sendline(b'g')
 test=conn.recvuntil(b'>')
