@@ -93,7 +93,7 @@ random.seed(timestamp)
 ```
 The timestamp is rounded, then formatted and given to the players. Meaning one can extract the time given, turn it back into a timestamp and use it in their own random number generator which will give out exact numbers as the server's generating
 
-Make a function like this to read data and extract the time information
+Make a function like this to read data and extract the time information using ```re``` library, which is about regex
 ```
 def extract_time(s):
     # Define a regular expression pattern to match the date and time
@@ -105,7 +105,7 @@ def extract_time(s):
     # Extract the date and time if the pattern is found
     return match.group(1)
 ```
-And another one to turn the time extracted into timestamp so it can be used as the seed. The key problem here is indicating the timezone that the timestamp is gonna be in, but mostly  it's either the local timezone, or GMT+0. After testing, one can find out that the correct timezone is GMT+0
+And another one to turn the time extracted into timestamp so it can be used as the seed using the ```pytz``` library. The key problem here is indicating the timezone that the timestamp is gonna be in, but mostly  it's either the local timezone, or GMT+0. After testing, one can find out that the correct timezone is GMT+0
 ```
 def produce_seed(s):
     date_string = s
