@@ -18,8 +18,8 @@
 | **Forensics** | [FRS101](forensic/FRS101/dist/) | Hidden message by scrambling the picture, viewing metadata | ⭐ |
 | **Forensics** | [FRS102](forensic/FRS102/dist/) | Knowing TCP stream, network flow and some basic Linux, crypto encryption | ⭐⭐ |
 | **Forensics** | [FRS103](forensic/FRS103/challenge.yml) | Knowing how to detect Follina, obfuscate powershell | ⭐⭐⭐⭐ |
-| **Crypto** | [Symmetric Ciphers](crypto/Symmetric-Ciphers/dist/)|  | ⭐|
-| **Crypto** | [simplersa](crypto/simplersa/dist/) | | ⭐ |
+| **Crypto** | [Symmetric Ciphers](crypto/Symmetric-Ciphers/dist/)| Find the original message that is encrypted | ⭐|
+| **Crypto** | [simplersa](crypto/simplersa/dist/) | Find the original flag that is encrypted | ⭐ |
 | **Crypto** | [Restless Gamble](crypto/Restless-Gamble/dist/) |  | ⭐⭐ |
 | **Misc** | [Where am i](misc/Where-am-i/dist/) |  | ⭐ |
 | **Misc** | [LINUX101](misc/LINUX101/source/) | Privilege Escalation to read files and grep flag with regex | ⭐ |
