@@ -20,7 +20,7 @@
 | **Forensics** | [FRS103](forensic/FRS103/challenge.yml) | Knowing how to detect Follina, obfuscate powershell | ⭐⭐⭐⭐ |
 | **Crypto** | [Symmetric Ciphers](crypto/Symmetric-Ciphers/dist/)| Find the original message that is encrypted | ⭐|
 | **Crypto** | [simplersa](crypto/simplersa/dist/) | Find the original flag that is encrypted | ⭐ |
-| **Crypto** | [Restless Gamble](crypto/Restless-Gamble/dist/) |  | ⭐⭐ |
+| **Crypto** | [Restless Gamble](crypto/Restless-Gamble/dist/) | Understanding how random functions work, learn about random seed and automation and connection in ctf using pwntools | ⭐⭐ |
 | **Misc** | [Where am i](misc/Where-am-i/dist/) | Geoosint to find the place  | ⭐ |
 | **Misc** | [LINUX101](misc/LINUX101/source/) | Privilege Escalation to read files and grep flag with regex | ⭐ |
 | **Misc** | [Iguro Obanai](misc/Iguro-Obanai/dist/) | OSINT GitHub repo and programming | ⭐⭐⭐ |
